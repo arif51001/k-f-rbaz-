@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Küfürbaz AI 😈</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div class="logo">😈</div>
+      <div>
+        <h1>Küfürbaz AI</h1>
+        <p>Atışmaya hazır. Alınmak yok, muhabbet var.</p>
+      </div>
+      <span class="status"><i></i> çevrimiçi</span>
+    </header>
+
+    <section id="chat" class="chat" aria-live="polite">
+      <div class="message bot">
+        <div class="bubble">Geldin mi lan? 😏 Hadi anlat, bugün kimi darlıyoruz?</div>
+        <time>Şimdi</time>
+      </div>
+    </section>
+
+    <div class="suggestions">
+      <button type="button" data-prompt="Bana sağlam bir laf sok">Laf sok 😈</button>
+      <button type="button" data-prompt="Bugün moralim bozuk, güldür beni">Güldür beni 😂</button>
+      <button type="button" data-prompt="Beni hafif roastla">Roastla 🔥</button>
+    </div>
+
+    <form id="composer">
+      <input id="input" autocomplete="off" maxlength="600" placeholder="Bir şey yaz da atışalım..." aria-label="Mesajın">
+      <button class="send" type="submit" aria-label="Gönder">➤</button>
+    </form>
+    <footer>Bu başlangıç sürümü hazır cevaplarla çalışır. Gerçek yapay zekâ bağlantısı eklenmedi.</footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
